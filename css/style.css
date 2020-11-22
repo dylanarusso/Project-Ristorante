@@ -1,0 +1,47 @@
+body {
+    
+}
+
+header {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    border: thick #0D8001 inset;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    background: firebrick;
+
+}
+
+/* This is the navigation bar */
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+nav {
+    float: inline-start;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: large;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
