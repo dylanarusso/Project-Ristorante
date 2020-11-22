@@ -1,5 +1,9 @@
 body {
-    
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #DAF7A6;
 }
 
 header {
@@ -44,4 +48,24 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Main page footer*/
+
+footer {
+    background: firebrick;
+    color: white;
+    border: dotted;
+}
+
+footer h5 {
+    margin: 10px 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+main article {
+    border: thick #010101 inset;
+    margin: 10px 10px;
 }
