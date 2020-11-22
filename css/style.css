@@ -69,3 +69,9 @@ main article {
     border: thick #010101 inset;
     margin: 10px 10px;
 }
+
+/*Carousel centering*/
+
+.carousel-inner img {
+    margin: auto;
+  }
