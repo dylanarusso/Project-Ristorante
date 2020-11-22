@@ -1,3 +1,5 @@
+/*All pages*/
+
 body {
     font-size: x-large;
     font-weight: bold;
@@ -19,7 +21,7 @@ header {
 
 }
 
-/* This is the navigation bar */
+/* This is the title/navigation bar */
 
 h1 {
     font-size: 60px;
@@ -70,8 +72,42 @@ main article {
     margin: 10px 10px;
 }
 
+/*Menu Page*/
+
 /*Carousel centering*/
 
 .carousel-inner img {
     margin: auto;
+}
+/*Menu tabs*/
+
+.tab {
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: #DAF7A6;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: white;
+  }
+  
+  .tab button.active {
+    background-color: white;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #DAF7A6;
+    border-top: none;
   }
