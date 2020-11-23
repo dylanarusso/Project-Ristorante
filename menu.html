@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <h1>Mouth Watering Menu</h1>
+            <h1 id="Menu">Mouth Watering Menu</h1>
             <h2>Pick from the Very Best </h2>
             <div>
                 <nav>
@@ -22,7 +22,7 @@
             </div>
         </header>
         
-        <!--Picture Carousel-->
+        <!--Picture Carousel - Menu-->
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -58,24 +58,127 @@
           <!--Food Menu-->
 
           <div class="tab">
-            <button class="tablinks" onclick="openMenu(event, 'Antipasti')">Antipasti</button>
+            <button class="tablinks" onclick="openMenu(event, 'Antipasti')" id="defaultOpen">Antipasti</button>
             <button class="tablinks" onclick="openMenu(event, 'Il Secondo')">Il Secondo</button>
             <button class="tablinks" onclick="openMenu(event, 'Dolci')">Dolci</button>
           </div>
 
+          <!--Menu Columns-->
+
             <div id="Antipasti" class="tabcontent">
-                <h3>Antipasti</h3>
-                <p>Menu Items.</p>
+                <nav>
+                    <div class="row">
+                        <div class="column" style="background-color: whitesmoke;">
+                          <h2>Antipasto</h2>
+                          <p>Assortment of cured meat and grilled vegetables</p>
+                          <p>$15.00</p>
+                          <img src="img/antipasto.jpg" alt="Antipasto" width="150" height="150">
+                        </div>
+                        <div class="column" style="background-color: whitesmoke;">
+                          <h2>Calamari</h2>
+                          <p>Fried baby squid</p>
+                          <p>$12.00</p>
+                          <img src="img/calamari.jpg" alt="Fried Calamari" width="150" height="150">                         
+                        </div>
+                        <div class="column" style="background-color: whitesmoke;">
+                          <h2>Minestrone Soup</h2>
+                          <p>Traditional home made vegatable soup</p>
+                          <p>$8.00</p>
+                          <img src="img/minestrone.jpg" alt="Minestrone Soup" width="150" height="150">
+                        </div>
+                      </div>
+                </nav>
             </div>
   
             <div id="Il Secondo" class="tabcontent">
-                <h3>Il Secondo</h3>
-                <p>Menu Items.</p>
+                <div class="row">
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>Baked Ziti</h2>
+                      <p>Penne pasta, sautéed in our house-made alla panna sauce topped with melted mozzarella cheese</p>
+                      <p>$11.49</p>
+                      <img src="img/baked-ziti.jpg" alt="Baked Ziti" width="150" height="160">
+
+                      <h2>Cheese Ravioli</h2>
+                      <p>Jumbo raviolis stuffed with ricotta cheese, topped with marinara sauce and bubbling mozzarella cheese</p>
+                      <p>$11.49</p>
+                      <img src="img/ravioli.jpg" alt="Cheese Ravioli" width="150" height="160">
+                    
+                      <h2>Stuffed Shells</h2>
+                      <p>Egg-rich pasta shells, packed with mozzarella, ricotta, and Parmesan cheeses with marinara sauce and topped with mozzarella cheese</p>
+                      <p>$11.49</p>
+                      <img src="img/stuffed-shells.jpg" alt="Stuffed Shells" width="150" height="150">
+
+                      <h2>Eggplant Rollentini</h2>
+                      <p>Breaded eggplant stuffed with ricotta cheese, rolled, and topped with marinara sauce and mozzarella cheese</p>
+                      <p>$12.49</p>
+                      <img src="img/eggplant-rollatini.jpg" alt="Eggplant Rollatini" width="150" height="150">
+                    </div>
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>Spaghetti</h2>
+                      <p>Your choice of butter, marinara sauce, or olive oil, garlic and basil</p>
+                      <p>$10.99</p>
+                      <img src="img/spaghetti.jpg" alt="Spaghetti" width="150" height="171">
+
+                      <h2>Tortellini</h2>
+                      <p>Cooked cheese tortellini sautéed in alla panna sauce</p>
+                      <p>$12.99</p>
+                      <img src="img/tortellini.jpg" alt="Tortellini" width="150" height="171">
+
+                      <h2>Sausage Pepper Parmigiana</h2>
+                      <p>Sausage and peppers sautéed in marinara sauce, topped with mozzarella cheese, served over spaghetti</p>
+                      <p>$13.99</p>
+                      <img src="img/sausage-peppers-parm.jpg" alt="Sausage Peppers Parmigiana" width="150" height="171">
+
+                      <h2>Fettuccine Alfredo</h2>
+                      <p>Fresh, white wine and heavy cream sauce over fettuccine</p>
+                      <p>$11.99</p>
+                      <img src="img/fettuccine-alfredo.jpg" alt="Fettuccine Alfredo" width="150" height="170">
+                    </div>
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>Tuscany Chicken</h2>
+                      <p>Chicken, broccoli and sundried tomatoes in a white wine sauce served over linguini pasta</p>
+                      <p>$14.99</p>
+                      <img src="img/tuscany-chicken.jpg" alt="Tuscany Chicken" width="150" height="150">
+
+                      <h2>Chicken Parmigiana</h2>
+                      <p>Lightly breaded and topped with marinara and mozzarella cheese, served over spaghetti Chicken</p>
+                      <p>$15.99</p>
+                      <img src="img/chicken-parm.jpg" alt="Chicken Parmigiana" width="150" height="150">
+
+                      <h2>Shrimp Scallopini</h2>
+                      <p>Shrimp, mussels, and scallops sautéed in a white wine butter sauce with a touch of marinara served over linguini</p>
+                      <p>$19.99</p>
+                      <img src="img/shrimp-scallopini.jpg" alt="Shrimp Scallopini" width="150" height="150">
+
+                      <h2>Steak Marsala</h2>
+                      <p>A 10 ounce ribeye cooked to your liking and sautéed with mushrooms, and onions in a Marsala wine sauce, served with a tossed salad with dressing of your choice</p>
+                      <p>$27.99</p>
+                      <img src="img/steak-marsala.jpg" alt="Steak Marsala" width="150" height="150">
+                    </div>
+                  </div>
             </div>
   
             <div id="Dolci" class="tabcontent">
-                <h3>Dolci</h3>
-                <p>Menu Items.</p>
+                <div class="row">
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>Cannoli</h2>
+                      <p>Cannoli is filled with a sweet ricotta and cream cheese filling with chocolate chips</p>
+                      <p>$5.99</p>
+                      <img src="img/cannoli.jpg" alt="cannoli" width="150" height="170">
+                    </div>
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>Gelato Ice Cream</h2>
+                      <p>Chocolate, Vanilla or Strawberry flavors</p>
+                      <p>$6.99</p>
+                      <img src="img/gelato.jpg" alt="Gelato" width="150" height="191">
+                    </div>
+                    <div class="column" style="background-color: whitesmoke;">
+                      <h2>New York Cheesecake</h2>
+                      <p>Our signature cake features a thick cream cheese batter baked into a sweet graham cracker crust, then finished with a light sour cream topping</p>
+                      <p>$5.49</p>
+                      <img src="img/nycheesecake.jpg" alt="New York Cheesecake" width="150" height="149">
+                    </div>
+                  </div>
             </div>
             <script>
                 function openMenu(evt, menuName) {
@@ -91,6 +194,11 @@
                   document.getElementById(menuName).style.display = "block";
                   evt.currentTarget.className += " active";
                 }
-                </script>
+                document.getElementById("defaultOpen").click(Antipasti);
+            </script>
+            <footer>
+                <a href="#Menu">Back to the Top</a>
+            </footer>
+
     </body>
 </html>
