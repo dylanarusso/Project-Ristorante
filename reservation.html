@@ -21,10 +21,10 @@
         
         <!--Reservation table-->
 
-        <div id="Reservation" class="reservationContent">
+        <div id="table" class="tableContent">
             <nav>
                 <div class="row">
-                    <div class="column" style="background-color: whitesmoke;">
+                    <div class="columnRes" style="background-color: whitesmoke; margin: 0 300px 0 300px;">
                       <h1>Hours</h1>
                       <h2>Monday to Thursday</h2>
                       <p>11:00am to 10:00pm</p>
@@ -33,14 +33,17 @@
                       <h2>Sunday</h2>
                       <p>12:00pm to 9:30pm</p>
                     </div>
-                    <div class="column" style="background-color: whitesmoke;">
+                    
+                    <div class="columnRes" style="background-color: whitesmoke; margin: 0 210px 0 210px;">
                         <form id="reservationText" class="reservationInput"> 
                             <fieldset>
                                 First Name: <input name="firstName" type="text" placeholder="Enter your First Name" />
                                 Last Name: <input name="lastName" type="text" placeholder="Enter your Last Name" />
-                                Email Address: <input name="emailAddress" type="email" placeholder="Enter your E-mail Address" />
-                                Number of People: <input name="numberPeople" type="number" placeholder="Number of People" />
-                                Date & Time:
+                                E-mail Address: <input name="emailAddress" type="email" placeholder="Enter your E-mail Address" />
+                                Date: <input name="date" type="date" placeholder="Enter Date" />
+                                Time: <input name="time" type="time" placeholder="Enter Time" />
+                                Number of People: <input name="numberPeople" type="number" placeholder="Number of People" />        
+                                
                             </fieldset>
                             <input type="submit" value="Book Table" />
                         </form>
