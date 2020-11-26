@@ -114,6 +114,7 @@ main article {
   }
 
 /* Menu Columns*/
+
 .column {
     float: left;
     width: 33.33%;
@@ -134,3 +135,30 @@ main article {
   }
 
   /* Reservations*/
+
+.container {
+    position: relative;
+  }
+  
+  .text-hours {
+    position: absolute;
+    bottom: 6px;
+    right: 211px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .text-hours h1 {
+      font-size: 66px;
+  }
+
+  .text-hours h2 {
+      font-size: 45px;
+      font-style: italic;
+  }
+
+  .text-hours p {
+      font-style: bold;
+  }

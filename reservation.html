@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Russo's Ristorante-About</title>
+        <title>Russo's Ristorante-Reservations</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -21,29 +21,31 @@
         
         <!--Reservation table-->
 
+       
+        <div class="container">
+            <img src="img/colosseum.jpg" alt="Colosseum" style="width:70%;">
+            <div class="text-hours"> 
+                <h1>Hours</h1>
+                <h2>Monday to Thursday</h2>
+                <p>11:00am to 10:00pm</p>
+                <h2>Friday & Saturday</h2>
+                <p>11:00am to 11:30pm</p>
+                <h2>Sunday</h2>
+                <p>12:00pm to 9:30pm</p>
+            </div>
+          </div>
+       
         <div id="table" class="tableContent">
-            <nav>
-                <div class="row">
-                    <div class="columnRes" style="background-color: whitesmoke; margin: 0 300px 0 300px;">
-                      <h1>Hours</h1>
-                      <h2>Monday to Thursday</h2>
-                      <p>11:00am to 10:00pm</p>
-                      <h2>Friday & Saturday</h2>
-                      <p>11:00am to 11:30pm</p>
-                      <h2>Sunday</h2>
-                      <p>12:00pm to 9:30pm</p>
-                    </div>
-                    
+            <nav>  
                     <div class="columnRes" style="background-color: whitesmoke; margin: 0 210px 0 210px;">
                         <form id="reservationText" class="reservationInput"> 
                             <fieldset>
                                 First Name: <input name="firstName" type="text" placeholder="Enter your First Name" />
                                 Last Name: <input name="lastName" type="text" placeholder="Enter your Last Name" />
                                 E-mail Address: <input name="emailAddress" type="email" placeholder="Enter your E-mail Address" />
-                                Date: <input name="date" type="date" placeholder="Enter Date" />
+                                Date: <input name="date" type="date" placeholder="MM/DD/YYY" />
                                 Time: <input name="time" type="time" placeholder="Enter Time" />
-                                Number of People: <input name="numberPeople" type="number" placeholder="Number of People" />        
-                                
+                                Number of People: <input name="numberPeople" type="number" placeholder="Number of People" />
                             </fieldset>
                             <input type="submit" value="Book Table" />
                         </form>
