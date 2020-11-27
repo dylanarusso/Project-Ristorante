@@ -138,20 +138,23 @@ main article {
 
 .container {
     position: relative;
+    overflow: hidden;
   }
   
   .text-hours {
     position: absolute;
-    bottom: 6px;
-    right: 211px;
+    bottom: 1%;
+    right: 15%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+    height: 600px;
+    width: 965px;
   }
 
   .text-hours h1 {
-      font-size: 66px;
+      font-size: 60px;
   }
 
   .text-hours h2 {
