@@ -2,6 +2,7 @@
 Week 4 - Project 1
 
 Dylan A. Russo
+Cohort 12-B
 
 
 Russo's Ristorante is a fictional italian resturant. This website is going to give a home page, menu page and also a reservation page. The home page will give the view of the resturant, links to the menu and about page and a simple about me paragraph, it will also give a form to sign up for weekly emails from the resturant. Menu page will give a full view of the menu, showing pictures and price of each item. Reservation page will give a calander for you to select the date you want to come and dine, along with personal information that needs to be filled out to reserve your spot right after you click the submit button.
